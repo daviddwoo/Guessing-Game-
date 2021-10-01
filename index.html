@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div id='main' class='center'>
+
+      <div class='center' id='header'>
+        <h1 id='title'>Play the Guessing Game!</h1>
+        <h2 id='changetext'>Enter a number between 1 - 100!</h2>
+      </div>
+
+      <div class='center' id='guesses'>
+        <ul>
+          <li class='guess' id='guess1'></li>
+          <li class='guess' id='guess2'></li>
+          <li class='guess' id='guess3'></li>
+          <li class='guess' id='guess4'></li>
+          <li class='guess' id='guess5'></li>
+        </ul>
+      </div>
+
+      <div class='center'>
+        <input placeholder="Enter #" maxlength='3' id='submitguess'>
+      </div>
+
+      <div id='submitnumber'>
+        <a href='#' id='submitbutton'>SUBMIT</a>
+      </div>
+
+      <div id='resethint'>
+        <a href='#' id='resetbutton'>RESET GAME</a>
+        <a href='#' id='hintbutton'>NEED A HINT?</a>
+      </div>
+
+      <div class='footer'>
+        <p>Created by David Woo | Fork at <a href='https://github.com/daviddwoo'><img src='githubicon.png' alt='Github' width='20'></a></p>
+      </div>
+      
+    <script src='js/guessing-game.js'></script>
+  </body>
+
+</html>
